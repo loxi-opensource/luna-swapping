@@ -114,7 +114,7 @@
 
 [小程序运行教程](./doc/deploy-uniapp.md)
 
-[后台部署教程](./doc/deploy-admin.md)
+[管理后台部署教程](./doc/deploy-admin.md)
 
 算法服务：按量付费购买，不开源
 
