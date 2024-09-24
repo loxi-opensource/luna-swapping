@@ -55,14 +55,31 @@
 
 <table>
     <tr>
-        <td><img src="./doc/image/show-1.jpg"/></td>
-        <td><img src="./doc/image/show-7.jpg"/></td>
-        <td><img src="./doc/image/show-3.jpg"/></td>
+        <td><img src="./doc/image/show-1.jpg"/>
+<p align="center">AI写真盲盒</p>
+</td>
+        <td>
+<img src="./doc/image/show-7.jpg"/>
+<p align="center">数字分身</p>
+</td>
+        <td>
+<img src="./doc/image/show-3.jpg"/>
+<p align="center">作图等待页</p>
+</td>
     </tr>
 	<tr>
-        <td><img src="./doc/image/show-4.jpg"/></td>
-        <td><img src="./doc/image/show-5.jpg"/></td>
-        <td><img src="./doc/image/show-6.jpg"/></td>
+        <td>
+<img src="./doc/image/show-4.jpg"/>
+<p align="center">AI换脸</p>
+</td>
+        <td>
+<img src="./doc/image/show-5.jpg"/>
+<p align="center">换脸效果（年华娃娃）</p>
+</td>
+        <td>
+<img src="./doc/image/show-6.jpg"/>
+<p align="center">电影定妆照</p>
+</td>
     </tr>
 </table>
 
