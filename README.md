@@ -44,7 +44,7 @@
 管理后台：<a href="https://luna-admin.sodair.top/admin">luna-admin.sodair.top/admin</a>
 </p>
 <p align="center">
-Luna AI换脸解决方案官网：<a href="https://luna.iartai.com">luna.iartai.com</a>
+AI换脸企业级解决方案：<a href="https://luna.iartai.com">luna.iartai.com</a>
 </p>
 </td>
     </tr>
@@ -55,7 +55,7 @@ Luna AI换脸解决方案官网：<a href="https://luna.iartai.com">luna.iartai.
 <table>
     <tr>
         <td><img src="./doc/image/show-1.jpg"/></td>
-        <td><img src="./doc/image/show-2.jpg"/></td>
+        <td><img src="./doc/image/show-7.jpg"/></td>
         <td><img src="./doc/image/show-3.jpg"/></td>
     </tr>
 	<tr>
@@ -68,14 +68,6 @@ Luna AI换脸解决方案官网：<a href="https://luna.iartai.com">luna.iartai.
 ### 后台演示图
 
 <table>
-    <tr>
-        <td style="width: 20%;font-weight: bold;">模型抽象</td>
-        <td><img src="./doc/image/show/model-abstract.png"/></td>
-    </tr>
-	<tr>
-        <td style="width: 20%;font-weight: bold;">作图任务</td>
-        <td><img src="./doc/image/show/swap-task.png"/></td>
-    </tr>
 	<tr>
         <td style="width: 20%;font-weight: bold;">换脸测试</td>
         <td><img src="./doc/image/show/swap-test.png"/></td>
@@ -85,12 +77,16 @@ Luna AI换脸解决方案官网：<a href="https://luna.iartai.com">luna.iartai.
         <td><img src="./doc/image/show/swap-template.png"/></td>
     </tr>
 	<tr>
-        <td style="width: 20%;font-weight: bold;">模板组管理</td>
+        <td style="width: 20%;font-weight: bold;">模板组</td>
         <td><img src="./doc/image/show/template-group.png"/></td>
     </tr>
 	<tr>
-        <td style="width: 20%;font-weight: bold;">模板排序</td>
-        <td><img src="./doc/image/show/template-group-sort.png"/></td>
+        <td style="width: 20%;font-weight: bold;">作图任务</td>
+        <td><img src="./doc/image/show/swap-task.png"/></td>
+    </tr>
+    <tr>
+        <td width="20%" style="width: 20%;font-weight: bold;">模型抽象</td>
+        <td><img src="./doc/image/show/model-abstract.png"/></td>
     </tr>
 </table>
 
@@ -104,6 +100,7 @@ Luna AI换脸解决方案官网：<a href="https://luna.iartai.com">luna.iartai.
 
 ## 功能列表 Feature
 
+<img src="./doc/image/feature-mindmap.png" alt="功能脑图"/>
 
 
 ## 联系方式 Contact
