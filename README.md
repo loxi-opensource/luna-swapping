@@ -2,7 +2,15 @@
 	<img alt="logo" src="./doc/image/logo-small.png">
 </p>
 <h1 align="center" style="margin: 10px 0 10px; font-weight: bold;">Luna AI换脸</h1>
-<h3 align="center">仅需一张图，生成高质量写真</h3>
+<h3 align="center" style="margin-bottom: 10px;">仅需一张图，生成高质量写真</h3>
+<p align="center">
+<a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/微信-小程序-05ce66"></a>
+<a href="https://pay.weixin.qq.com/"><img src="https://img.shields.io/badge/微信支付-API3-05ce66"></a>
+<a href="https://www.alipay.com"><img src="https://img.shields.io/badge/支付宝-支付-00a0eb"></a>
+<a href="https://www.aliyun.com/"><img src="https://img.shields.io/badge/阿里云-OSS-ff6a00"></a>
+<a href="https://www.qiniu.com/"><img src="https://img.shields.io/badge/七牛云-OSS-07beff"></a>
+<a href="https://www.qiniu.com/"><img src="https://img.shields.io/badge/亚马逊-S3-ff9900"></a>
+</p>
 <p align="center">
 <a href="#"><img src="https://img.shields.io/badge/PHP-8-8892bf"></a>
 <a href="#"><img src="https://img.shields.io/badge/ThinkPHP-6.0-6fb737"></a>
@@ -12,14 +20,6 @@
 <a href="#"><img src="https://img.shields.io/badge/Element Plus-2.8-409eff"></a>
 <a href="#"><img src="https://img.shields.io/badge/vite-5-ffc018"></a>
 </p>
-<p align="center">
-<a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/微信-小程序-05ce66"></a>
-<a href="https://pay.weixin.qq.com/"><img src="https://img.shields.io/badge/微信支付-API3-05ce66"></a>
-<a href="https://www.alipay.com"><img src="https://img.shields.io/badge/支付宝-支付-00a0eb"></a>
-<a href="https://www.aliyun.com/"><img src="https://img.shields.io/badge/阿里云-OSS-ff6a00"></a>
-<a href="https://www.qiniu.com/"><img src="https://img.shields.io/badge/七牛云-OSS-07beff"></a>
-<a href="https://www.qiniu.com/"><img src="https://img.shields.io/badge/亚马逊-S3-ff9900"></a>
-</p>    
 
 ## 简介 Introduction
 
