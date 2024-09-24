@@ -3,12 +3,9 @@
 namespace app\adminapi\controller\swap_template;
 
 use app\adminapi\controller\BaseAdminController;
-use app\adminapi\lists\swap_template\InGroupTemplateLists;
 use app\adminapi\lists\swap_template\InStrategyGroupLists;
-use app\adminapi\lists\swap_template\NotInGroupTemplateLists;
 use app\adminapi\lists\swap_template\NotInStrategyGroupLists;
 use app\adminapi\lists\swap_template\StrategyLists;
-use app\adminapi\lists\swap_template\TemplateGroupLists;
 use app\common\model\swap_template\SwapStrategy;
 use app\common\model\swap_template\SwapStrategyGroupRelation;
 use think\helper\Arr;

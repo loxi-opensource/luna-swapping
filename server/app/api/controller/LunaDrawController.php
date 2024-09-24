@@ -5,7 +5,6 @@ namespace app\api\controller;
 use app\api\logic\LunaDrawLogic;
 use app\common\enum\FileEnum;
 use app\common\model\luna\DigitalAvatar;
-use app\common\model\luna\LunaDrawingTask;
 use app\common\model\luna\SwapTask;
 use app\common\model\user\User;
 use app\common\service\aliyun\ImageCropService;
@@ -53,7 +52,7 @@ class LunaDrawController extends BaseApiController
         }
 
         $showPredicateTime = '';
-        if ($res['status'] == LunaDrawingTask::STATUS_PROCESSING) {
+        if ($res['status'] == SwapTask::STATUS_PROCESSING) {
             $showPredicateTime = LunaDrawLogic::calcShowPredicateTime($res['upstream_resp']['consumingTime'] ?? 0);
         }
         $res['show_predicate_time'] = $showPredicateTime;

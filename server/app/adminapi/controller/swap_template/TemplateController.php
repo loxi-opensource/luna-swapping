@@ -46,7 +46,7 @@ class TemplateController extends BaseAdminController
     {
         $params = $this->request->post();
         $result = SwapTemplate::create($params);
-        return $this->success('操作成功',[],1,1);
+        return $this->success('操作成功', [], 1, 1);
     }
 
     public function edit()
@@ -56,7 +56,7 @@ class TemplateController extends BaseAdminController
             'name', 'status', 'image_url'
         ]);
         SwapTemplate::update($toUpdate, ['id' => $params['id']]);
-        return $this->success('操作成功',[],1,1);
+        return $this->success('操作成功', [], 1, 1);
     }
 
     public function addChild()
@@ -75,13 +75,13 @@ class TemplateController extends BaseAdminController
                 'template_id' => $templateId
             ]);
         }
-        return $this->success('操作成功',[],1,1);
+        return $this->success('操作成功', [], 1, 1);
     }
 
     public function removeChild()
     {
         SwapTemplateCollectionRelation::destroy($this->request->post('relation_id'));
-        return $this->success('操作成功',[],1,1);
+        return $this->success('操作成功', [], 1, 1);
     }
 
 }

@@ -3,9 +3,8 @@
 namespace app\job;
 
 use app\api\logic\LunaDrawLogic;
-use app\common\model\luna\LunaDrawingTask;
+use app\common\model\luna\SwapTask;
 use app\common\utils\LogUtils;
-use think\Exception;
 use think\queue\Job;
 
 class LunaDrawingPollingJob
@@ -45,9 +44,9 @@ class LunaDrawingPollingJob
             return "failed";
         }
 
-        if ($res['status'] == LunaDrawingTask::STATUS_PROCESSING) {
+        if ($res['status'] == SwapTask::STATUS_PROCESSING) {
             return "continue";
-        } else if ($res['status'] == LunaDrawingTask::STATUS_SUCCESS || $res['status'] == LunaDrawingTask::STATUS_FAIL) {
+        } else if ($res['status'] == SwapTask::STATUS_SUCCESS || $res['status'] == SwapTask::STATUS_FAIL) {
             return 'completed';
         } else {
             return "failed";
@@ -56,7 +55,7 @@ class LunaDrawingPollingJob
 
     public function failed($data, \Exception $e)
     {
-        LogUtils::log('failed job' , [
+        LogUtils::log('failed job', [
             'data' => $data,
             'errmsg' => $e->getMessage()
         ]);
