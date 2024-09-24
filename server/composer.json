@@ -1,0 +1,64 @@
+{
+    "name": "topthink/think",
+    "description": "the new thinkphp framework",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "thinkphp",
+        "ORM"
+    ],
+    "homepage": "http://thinkphp.cn/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "liu21st",
+            "email": "liu21st@gmail.com"
+        },
+        {
+            "name": "yunwuxin",
+            "email": "448901948@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "topthink/framework": "^6.0.0",
+        "topthink/think-orm": "^2.0",
+        "topthink/think-multi-app": "^1.0",
+        "topthink/think-view": "^1.0",
+        "dragonmantank/cron-expression": "^3.3",
+        "phpoffice/phpspreadsheet": "^1.22",
+        "qiniu/php-sdk": "7.4",
+        "qcloud/cos-sdk-v5": "^2.5",
+        "aliyuncs/oss-sdk-php": "^2.4",
+        "tencentcloud/tencentcloud-sdk-php": "^3.0",
+        "alibabacloud/client": "^1.5",
+        "rmccue/requests": "^2.0",
+        "w7corp/easywechat": "^6.8",
+        "lustre/php-dfa-sensitive": "^1.4",
+        "alipaysdk/easysdk": "^2.2",
+        "firebase/php-jwt": "^6.4",
+        "topthink/think-queue": "^3.0",
+        "alibabacloud/green-20220302": "^1.0",
+        "ramsey/uuid": "^4.7",
+        "intervention/image": "^2.7"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2",
+        "topthink/think-trace":"^1.0",
+        "topthink/think-migration": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "psr-0": {
+            "": "extend/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "easywechat-composer/easywechat-composer": false
+        }
+    }
+}

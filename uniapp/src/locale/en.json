@@ -1,0 +1,26 @@
+{
+  "locale.auto": "System",
+  "locale.en": "English",
+  "locale.zh-hans": "简体中文",
+  "locale.zh-hant": "繁体中文",
+  "locale.ja": "日语",
+  "index.title": "Hello i18n",
+  "index.home": "Home",
+  "index.component": "Component",
+  "index.api": "API",
+  "index.schema": "Schema",
+  "index.demo": "uni-app globalization",
+  "index.demo-description": "Include uni-framework, manifest.json, pages.json, tabbar, Page, Component, API, Schema",
+  "index.detail": "Detail",
+  "index.language": "Language",
+  "index.language-info": "Settings",
+  "index.system-language": "System language",
+  "index.application-language": "Application language",
+  "index.language-change-confirm": "Applying this setting will restart the app",
+  "api.message": "Message",
+  "schema.name": "Name",
+  "schema.add": "Add",
+  "schema.add-success": "Add success",
+
+  "draw-bootstrap.title": "AI Photo"
+}

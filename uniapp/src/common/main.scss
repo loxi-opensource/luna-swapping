@@ -1,0 +1,25 @@
+.main-button {
+  background: linear-gradient(105.34deg, #c465ff 9.23%, #8247ff 105.76%);
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 8px;
+  line-height: 88rpx;
+  width: 534rpx;
+  font-size: 16px;
+  box-shadow: 0px 4px 8px 0px rgba(146, 78, 255, 0.5);
+  border: none;
+  position: absolute;
+  bottom: 186rpx;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.main-button::after {
+  border: none;
+}
+
+.main-button-disabled {
+  background: #f5f5f5;
+  color: #b8b8b8;
+  box-shadow: none;
+}

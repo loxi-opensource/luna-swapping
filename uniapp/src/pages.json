@@ -1,0 +1,119 @@
+{
+  "pages": [
+    {
+      "path": "pages/draw/bootstrap",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/draw/portrait",
+      "style": {
+        "navigationBarTitleText": "Luna AI写真"
+      }
+    },
+    {
+      "path": "pages/swap/index",
+      "style": {
+        "navigationBarTitleText": "一对一换脸"
+      }
+    },
+    {
+      "path": "pages/test/index",
+      "style": {
+        "navigationBarTitleText": "Testing"
+      }
+    },
+    {
+      "path": "pages/swap/templateList",
+      "style": {
+        "navigationBarTitleText": "换脸模板"
+      }
+    },
+    {
+      "path": "pages/draw/confirm",
+      "style": {
+        "navigationBarTitleText": "制作照片 2/3"
+      }
+    },
+    {
+      "path": "pages/draw/generate",
+      "style": {
+        "navigationBarTitleText": "制作照片 3/3"
+      }
+    },
+    {
+      "path": "pages/user/photoAlbum",
+      "style": {
+        "navigationBarTitleText": "专属肖像"
+      }
+    },
+    {
+      "path": "pages/draw/detail",
+      "style": {
+        "navigationBarTitleText": "专属肖像"
+      }
+    },
+    {
+      "path": "pages/user/index",
+      "style": {
+        "navigationBarTitleText": "我的影集"
+      }
+    },
+    {
+      "path": "pages/user/contact",
+      "style": {
+        "navigationBarTitleText": "联系我们"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFF",
+    "backgroundColor": "#FFF"
+  },
+  "tabBar": {
+    "color": "#8C8C8C",
+    "selectedColor": "#D16FFF",
+    "borderStyle": "white",
+    "backgroundColor": "#F5F6F7",
+    "list": [
+      {
+        "pagePath": "pages/draw/portrait",
+        "iconPath": "static/tabbar-icon-portrait.png",
+        "selectedIconPath": "static/tabbar-icon-portrait-hl.png",
+        "text": "写真"
+      },
+      {
+        "pagePath": "pages/swap/index",
+        "iconPath": "static/tabbar-icon-swap.png",
+        "selectedIconPath": "static/tabbar-icon-swap-hl.png",
+        "text": "换脸"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/tabbar-icon-user-new.png",
+        "selectedIconPath": "static/tabbar-icon-user-new-hl.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "condition": {
+    //模式配置，仅开发期间生效
+    "current": 0, //当前激活的模式(list 的索引项)
+    "list": [
+      {
+        "name": "", //模式名称
+        "path": "", //启动页面，必选
+        "query": "" //启动参数，在页面的onLoad函数里面得到
+      }
+    ]
+  }
+}

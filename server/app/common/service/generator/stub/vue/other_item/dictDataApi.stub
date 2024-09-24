@@ -1,0 +1,6 @@
+    dictDataLists({
+        type_value: '{DICT_TYPE}',
+        page_type: 0
+    }).then((res: any) => {
+        dictData.{DICT_TYPE} = res.lists
+    })

@@ -1,0 +1,13 @@
+/.idea
+/.vscode
+*.log
+/.env
+/public/uploads/*
+!/public/uploads/index.html
+/runtime/*
+!/runtime/index.html
+/config/install.lock
+/license/my.license
+/vendor
+.DS_Store
+*__*
