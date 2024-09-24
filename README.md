@@ -1,8 +1,8 @@
 <p align="center">
 	<img alt="logo" src="./doc/image/logo-small.png">
 </p>
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">Luna AI换脸</h1>
-<h4 align="center">AI换脸 / AI写真 / AI证件照</h4>
+<h1 align="center" style="margin: 10px 0 10px; font-weight: bold;">Luna AI换脸</h1>
+<h3 align="center">仅需一张图，生成高质量写真</h3>
 <p align="center">
 <a href="#"><img src="https://img.shields.io/badge/PHP-8-8892bf"></a>
 <a href="#"><img src="https://img.shields.io/badge/ThinkPHP-6.0-6fb737"></a>
@@ -23,12 +23,13 @@
 
 ## 简介 Introduction
 
-- 基础能力：支持证件照、表情包、热图梗图、网红氛围感换脸
+- 基础能力：AI换脸、AI写真、AI证件照、恶搞表情包、网红氛围感换脸
 - 算法能力：行业Top3效果，支持脸型适配、表情适配、光影适配
-- 写真玩法：支持多种风格艺术写真，媲美线下照相馆
-- 合影玩法：支持多人合影、情侣合照、明星合影、宠物合影
-- 模板管理：支持自定义底图，后台管理模板上架，热门模板推荐
-- 付费方式：支持余额充值、会员订阅、单次付费
+- 数字分身：仅需1张正脸照制作数字分身，用户可管理删除
+- 写真玩法：官方内置10万张多风格艺术写真模板，每次生成风格都不重复
+- 多人换脸：支持多人合影、情侣合照、明星合影、宠物合影
+- 模板管理：支持自定义模板底图，设置模板排序，热门模板推荐
+- 付费方式：支持余额充值、会员订阅、单次付费。支持微信、支付宝支付
 - 营销能力：兑换码、二级分销、邀请奖励
 
 ## 演示 Live Demo
