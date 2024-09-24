@@ -195,6 +195,7 @@ class LunaDrawLogic extends DrawLogic
             return false;
         }
 
+        // 入队列轮询任务状态
         $job = "app\\job\\LunaDrawingPollingJob";
         \think\facade\Queue::later(5, $job, [
             'user_id' => $newTask->user_id,
@@ -226,35 +227,5 @@ class LunaDrawLogic extends DrawLogic
 
         $showPredicateTime = $num . ' ' . lang($unit);
         return $showPredicateTime;
-    }
-
-    private static function refreshExpiredImages($msgList, $isThumbnail = 0)
-    {
-        if (empty($msgList)) {
-            return false;
-        }
-
-        try {
-            // todo debug
-            LogUtils::log('freddy-请求刷新图库参数：', compact('msgList', 'isThumbnail'));
-            $start1 = microtime(true); // 记录开始时间
-            $res = (new LunaDrawService())->batchGetTaskStatus($msgList, $isThumbnail);
-            $end1 = microtime(true); // 记录结束时间
-            $time1 = round(($end1 - $start1) * 1000, 2); // 第一部分的用时
-            Log::record("freddy-请求刷新图库用时：{$time1} 毫秒");
-        } catch (\Exception $e) {
-            Log::record("refreshExpiredImages lunaService->batchGetTaskStatus 批量刷新图片失败: " . json_encode([
-                    'err' => $e->getMessage(),
-                    'params' => $msgList
-                ], JSON_UNESCAPED_UNICODE));
-            return false;
-        }
-
-        if (empty($res)) {
-            return false;
-        }
-
-        $taskMap = array_column($res['list'], null, 'id');
-        return $taskMap;
     }
 }
