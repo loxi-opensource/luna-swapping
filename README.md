@@ -74,7 +74,7 @@
 </td>
         <td>
 <img src="./doc/image/show-5.jpg"/>
-<p align="center">换脸效果（年华娃娃）</p>
+<p align="center">换脸效果-年画娃娃</p>
 </td>
         <td>
 <img src="./doc/image/show-6.jpg"/>
