@@ -1,6 +1,6 @@
-import store from '@/stores'
-import type { App } from 'vue'
+import store from "@/stores";
+import type { App } from "vue";
 
 export default (app: App<Element>) => {
-    app.use(store)
-}
+  app.use(store);
+};

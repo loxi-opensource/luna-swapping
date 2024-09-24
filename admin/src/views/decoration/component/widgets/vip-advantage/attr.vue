@@ -1,28 +1,28 @@
 <template>
+  <div>
     <div>
-        <div>
-            <el-form label-width="70px">
-                <el-form-item label="是否开启">
-                    <el-radio-group v-model="content.enabled">
-                        <el-radio :label="1">开启</el-radio>
-                        <el-radio :label="0">关闭</el-radio>
-                    </el-radio-group>
-                </el-form-item>
-                <el-form-item label="标题名称">
-                    <el-input
-                        class="w-[360px]"
-                        placeholder="请输入"
-                        v-model="content.name"
-                    ></el-input>
-                </el-form-item>
-                <el-form-item label="菜单设置">
-                    <div class="flex-1">
-                        <el-alert
-                            title="会员权益请前往【营销中心】-【会员套餐】添加"
-                            :closable="false"
-                            type="warning"
-                        />
-                        <!-- <draggable class="draggable" v-model="content.data" animation="300">
+      <el-form label-width="70px">
+        <el-form-item label="是否开启">
+          <el-radio-group v-model="content.enabled">
+            <el-radio :label="1">开启</el-radio>
+            <el-radio :label="0">关闭</el-radio>
+          </el-radio-group>
+        </el-form-item>
+        <el-form-item label="标题名称">
+          <el-input
+            class="w-[360px]"
+            placeholder="请输入"
+            v-model="content.name"
+          ></el-input>
+        </el-form-item>
+        <el-form-item label="菜单设置">
+          <div class="flex-1">
+            <el-alert
+              title="会员权益请前往【营销中心】-【会员套餐】添加"
+              :closable="false"
+              type="warning"
+            />
+            <!-- <draggable class="draggable" v-model="content.data" animation="300">
                             <template v-slot:item="{ element: item, index }">
                                 <del-wrap
                                     :key="index"
@@ -49,33 +49,33 @@
                                 </del-wrap>
                             </template>
                         </draggable> -->
-                    </div>
-                </el-form-item>
-                <!-- <el-form-item>
+          </div>
+        </el-form-item>
+        <!-- <el-form-item>
                     <el-button type="primary" @click="handleAdd">添加权益</el-button>
                 </el-form-item> -->
-            </el-form>
-        </div>
+      </el-form>
     </div>
+  </div>
 </template>
 <script lang="ts" setup>
-import feedback from '@/utils/feedback'
-import Draggable from 'vuedraggable'
+import feedback from "@/utils/feedback";
+import Draggable from "vuedraggable";
 
-import type { PropType } from 'vue'
-import type options from './options'
-type OptionsType = ReturnType<typeof options>
+import type { PropType } from "vue";
+import type options from "./options";
+type OptionsType = ReturnType<typeof options>;
 const props = defineProps({
-    content: {
-        type: Object as PropType<OptionsType['content']>,
-        default: () => ({})
-    },
-    styles: {
-        type: Object as PropType<OptionsType['styles']>,
-        default: () => ({})
-    }
-})
-const limit = 6
+  content: {
+    type: Object as PropType<OptionsType["content"]>,
+    default: () => ({}),
+  },
+  styles: {
+    type: Object as PropType<OptionsType["styles"]>,
+    default: () => ({}),
+  },
+});
+const limit = 6;
 
 // const handleAdd = () => {
 //     props.content.data?.length < limit

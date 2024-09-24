@@ -1,6 +1,6 @@
-import attr from './attr.vue'
-import content from './content.vue'
+import attr from "./attr.vue";
+import content from "./content.vue";
 export default {
-    attr,
-    content
-}
+  attr,
+  content,
+};

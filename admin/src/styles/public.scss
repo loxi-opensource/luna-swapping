@@ -1,32 +1,31 @@
 body {
-    @apply text-base text-tx-primary overflow-hidden min-w-[375px];
+  @apply text-base text-tx-primary overflow-hidden min-w-[375px];
 }
 .form-tips {
-    @apply text-tx-secondary text-xs leading-6 mt-1;
+  @apply text-tx-secondary text-xs leading-6 mt-1;
 }
 
 .clearfix:after {
-    content: '';
-    display: block;
-    clear: both;
-    visibility: hidden;
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
 }
 
 /* NProgress */
 #nprogress .bar {
-    @apply bg-primary #{!important};
+  @apply bg-primary #{!important};
 }
 
 .text_hidden {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
-
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 body,
 html {
-    *:focus-visible {
-        outline: none;
-    }
+  *:focus-visible {
+    outline: none;
+  }
 }
