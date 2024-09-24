@@ -35,18 +35,18 @@
 
 <table>
     <tr>
+        <td width="30%">
+            <img src="./doc/image/qrcode.jpg" alt="小程序演示"/>
+            <p align="center">微信小程序</p>
+        </td>
         <td>
-<img src="./doc/image/qrcode.jpg" alt="小程序演示"/>
-<p align="center">微信小程序</p>
-</td>
-<td>
-<p>
-管理后台：<a href="https://luna-admin.sodair.top/admin">luna-admin.sodair.top/admin</a>
-</p>
-<p>
-AI换脸企业级解决方案：<a href="https://luna.iartai.com">luna.iartai.com</a>
-</p>
-</td>
+            <p>
+                内置10w+高清写真模板：<a href="https://luna-admin.sodair.top/admin">管理后台入口</a>
+            </p>
+            <p>
+                AI换脸企业级解决方案：<a href="https://luna.iartai.com">luna.iartai.com</a>
+            </p>
+        </td>
     </tr>
 </table>
 
