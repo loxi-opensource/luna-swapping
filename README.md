@@ -92,11 +92,13 @@
 
 ## 部署运行 How to run
 
-- 跨端编译：目前已适配微信小程序、抖音小程序、IOS
-- 服务端框架：thinkphp6 + php8 [服务端部署教程](./doc/deploy-server.md)
-- 小程序前端框架：uniapp + vue3 [小程序运行教程](./doc/deploy-uniapp.md)
-- 管理后台前端框架：vue3 + ts + ElementPlus [后台部署教程](./doc/deploy-admin.md)
-- 算法服务：按量付费购买，不开源
+[服务端部署教程](./doc/deploy-server.md)
+
+[小程序运行教程](./doc/deploy-uniapp.md)
+
+[后台部署教程](./doc/deploy-admin.md)
+
+算法服务：按量付费购买，不开源
 
 ## 功能列表 Feature
 
@@ -135,9 +137,9 @@
     </td>
     <td>
         <p>邮箱: zhoukai@iartai.com</p>
-<p>
-企业级解决方案：<a href="https://luna.iartai.com">luna.iartai.com</a>
-</p>
+        <p>
+        企业级解决方案：<a href="https://luna.iartai.com">luna.iartai.com</a>
+        </p>
     </td>
 </tr>
 </table>
