@@ -3,7 +3,25 @@
 </p>
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">Luna AI小程序端</h1>
 <h4 align="center">AI换脸 / AI写真 / AI证件照</h4>
-
+<p align="center">
+<a href="https://www.php.net/"><img src="https://img.shields.io/badge/PHP-8-8892bf"></a>
+<a href="https://www.tslang.cn/"><img src="https://img.shields.io/badge/TypeScript-5-294e80"></a>
+<a href="#"><img src="https://img.shields.io/badge/ThinkPHP-8.0-6fb737"></a>
+<a href="#"><img src="https://img.shields.io/badge/Vue.js-3.5-4eb883"></a>
+<a href="#"><img src="https://img.shields.io/badge/vite-5-ffc018"></a>
+<a href="#"><img src="https://img.shields.io/badge/Element Plus-2.8-409eff"></a>
+<a href="https://uniapp.dcloud.io/"><img src="https://img.shields.io/badge/uniapp-3-d85806"></a>
+</p>
+<p align="center">
+<a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/微信-公众号-05ce66"></a>
+<a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/微信-小程序-05ce66"></a>
+<a href="https://open.weixin.qq.com/"><img src="https://img.shields.io/badge/微信-开放平台-05ce66"></a>
+<a href="https://pay.weixin.qq.com/"><img src="https://img.shields.io/badge/微信支付-API3-05ce66"></a>
+<a href="https://www.alipay.com"><img src="https://img.shields.io/badge/支付宝-支付-00a0eb"></a>
+<a href="https://www.aliyun.com/"><img src="https://img.shields.io/badge/阿里云-OSS-ff6a00"></a>
+<a href="https://www.qiniu.com/"><img src="https://img.shields.io/badge/七牛云-OSS-07beff"></a>
+<a href="https://www.qiniu.com/"><img src="https://img.shields.io/badge/亚马逊-S3-07beff"></a>
+</p>    
 ## 简介
 
 - 基础能力：支持证件照、表情包、热图梗图、网红氛围感换脸
@@ -11,23 +29,25 @@
 - 写真玩法：支持多种风格艺术写真，媲美线下照相馆
 - 合影玩法：支持多人合影、情侣合照、明星合影、宠物合影
 - 模板管理：支持自定义底图，后台管理模板上架，热门模板推荐
-- 付费方式：支持会员付费、按次付费、新用户限免试用
-- 营销能力：二级分销系统、推荐返现、佣金提现、兑换码
-- 国际化：支持多语言、海外IOS版本支持Apple, Google, 邮箱登录和Apple支付
+- 付费方式：支持余额充值、会员订阅、单次付费
+- 营销能力：兑换码、二级分销、邀请奖励
 
 ## 技术栈
 
 - 跨端编译：目前已适配微信小程序、抖音小程序、IOS
-- 服务端框架：thinkphp6 + php8 [开源仓库](https://gitee.com/loxi-open-source/luna-app-server) | [服务端部署教程](https://gitee.com/loxi-open-source/luna-app-server/blob/master/doc/deploy.md)
-- 小程序前端框架：uniapp + vue3 [开源仓库](https://gitee.com/loxi-open-source/luna-app-miniprogram) | [小程序运行教程](https://gitee.com/loxi-open-source/luna-app-miniprogram/blob/master/doc/deploy.md)
-- 管理后台前端框架：vue3 + ts + ElementPlus [开源仓库](https://gitee.com/loxi-open-source/luna-app-admin) | [后台部署教程](https://gitee.com/loxi-open-source/luna-app-admin/blob/master/doc/deploy.md)
+- 服务端框架：thinkphp6 + php8 [服务端部署教程](./doc/deploy-server.md)
+- 小程序前端框架：uniapp + vue3 [小程序运行教程](./doc/deploy-uniapp.md)
+- 管理后台前端框架：vue3 + ts + ElementPlus [后台部署教程](./doc/deploy-admin.md)
 - 算法服务：按量付费购买，不开源
-- 小程序演示
+
+## 演示DEMO
+
+管理后台：[https://luna-admin.sodair.top/admin](https://luna-admin.sodair.top/admin)
+
+微信小程序
 
 <img src="./doc/image/qrcode.jpg" alt="小程序演示"/>
 
-
-## 演示图
 
 <table>
     <tr>
