@@ -40,10 +40,10 @@
 <p align="center">微信小程序</p>
 </td>
 <td>
-<p align="center">
+<p>
 管理后台：<a href="https://luna-admin.sodair.top/admin">luna-admin.sodair.top/admin</a>
 </p>
-<p align="center">
+<p>
 AI换脸企业级解决方案：<a href="https://luna.iartai.com">luna.iartai.com</a>
 </p>
 </td>
@@ -69,23 +69,23 @@ AI换脸企业级解决方案：<a href="https://luna.iartai.com">luna.iartai.co
 
 <table>
 	<tr>
-        <td style="width: 20%;font-weight: bold;">换脸测试</td>
+        <td width="20%">换脸测试</td>
         <td><img src="./doc/image/show/swap-test.png"/></td>
     </tr>
 	<tr>
-        <td style="width: 20%;font-weight: bold;">模板管理</td>
+        <td>模板管理</td>
         <td><img src="./doc/image/show/swap-template.png"/></td>
     </tr>
 	<tr>
-        <td style="width: 20%;font-weight: bold;">模板组</td>
+        <td>模板组</td>
         <td><img src="./doc/image/show/template-group.png"/></td>
     </tr>
 	<tr>
-        <td style="width: 20%;font-weight: bold;">作图任务</td>
+        <td>作图任务</td>
         <td><img src="./doc/image/show/swap-task.png"/></td>
     </tr>
     <tr>
-        <td width="20%" style="width: 20%;font-weight: bold;">模型抽象</td>
+        <td>模型抽象</td>
         <td><img src="./doc/image/show/model-abstract.png"/></td>
     </tr>
 </table>
@@ -102,9 +102,18 @@ AI换脸企业级解决方案：<a href="https://luna.iartai.com">luna.iartai.co
 
 <img src="./doc/image/feature-mindmap.png" alt="功能脑图"/>
 
-
 ## 联系方式 Contact
 
-更多需求请加：
-
-<img src="./doc/image/wechat-contact.jpg" alt="小程序演示"/>
+<table>
+<tr>
+    <td>
+        <img src="./doc/image/wechat-contact-crop.jpg" alt="qrcode"/>
+    </td>
+    <td>
+        <p>邮箱: zhoukai@iartai.com</p>
+<p>
+企业级解决方案：<a href="https://luna.iartai.com">luna.iartai.com</a>
+</p>
+    </td>
+</tr>
+</table>
