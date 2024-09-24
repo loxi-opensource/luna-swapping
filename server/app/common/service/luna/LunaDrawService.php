@@ -136,79 +136,6 @@ class LunaDrawService
         return $respData;
     }
 
-    function getTagGroupList()
-    {
-        $res = $this->sendRequest('GET', '/api/tagGroup/get', null, [
-            'JWTHEADER' => $this->getAccessToken()
-        ]);
-        return $res['data'];
-    }
-
-    function getTagList($tagGroupID, $is1v1 = false, $materialFilesNum = null)
-    {
-        $res = $this->sendRequest('GET', '/api/tagFile/get', [
-            'tagGroupId' => $tagGroupID,
-            'status' => $is1v1 ? 1 : 0,
-            'tagPromptTypeLimit' => $materialFilesNum
-        ], [
-            'JWTHEADER' => $this->getAccessToken()
-        ]);
-        return $res['data'];
-    }
-
-    function getTagListPopular($tagGroupID, $is1v1 = false, $materialFilesNum = null)
-    {
-        $res = $this->sendRequest('GET', '/api/tagFile/getPopularList', [
-            'tagGroupId' => $tagGroupID,
-            'status' => $is1v1 ? 1 : 0,
-            'tagPromptTypeLimit' => $materialFilesNum
-        ], [
-            'JWTHEADER' => $this->getAccessToken()
-        ]);
-        return $res['data'];
-    }
-
-    function getMaterialFilesByTagID($tagID, $materialFilesNum = null)
-    {
-        $res = $this->sendRequest('POST', '/api/tagFile/randomTagFile', [
-            'tagId' => $tagID,
-            'tagPromptTypeLimit' => $materialFilesNum
-        ], [
-            'JWTHEADER' => $this->getAccessToken()
-        ]);
-        return $res['data'];
-    }
-
-    function submitDrawingTask($tagFileID, $userFileID, $drawCnt, $isWatermark = 0, $prompt = null)
-    {
-        $res = $this->sendRequest('POST', '/api/userMessage/createSwapEnhance', [
-            'tagFileId' => $tagFileID,
-            'userFileId' => $userFileID,
-            'sendPrompt' => $prompt,
-            'fileSize' => $drawCnt,
-            'isWatermark' => $isWatermark
-        ], [
-            'JWTHEADER' => $this->getAccessToken()
-        ]);
-        return $res['data'];
-    }
-
-    function submitDrawingTaskV2($drawCnt, $userFileID, $tagFileIdString = null, $tagID = null, $isWatermark = 0, $prompt = null)
-    {
-//        $tagFileIdString = '2447393,2408618';
-        $res = $this->sendRequest('POST', '/api/userMessage/createSwapEnhance', [
-            'fileSize' => 2,
-            'userFileId' => $userFileID,
-            'tagFileId' => $tagFileIdString,
-            'tagId' => $tagID, // tagId优先级高于tagFileId
-            'isWatermark' => $isWatermark,
-            'sendPrompt' => $prompt,
-        ], [
-            'JWTHEADER' => $this->getAccessToken()
-        ]);
-        return $res['data'];
-    }
-
     function submitDrawingTaskV3(FaceMappingList $faceMappingList)
     {
         $res = $this->sendRequest('POST',
@@ -222,7 +149,7 @@ class LunaDrawService
 
     function pollTaskStatus($msgID, $isThumbnail = 0)
     {
-        // todo java需要返回作图结果对应的模板id，方便定位做图出错问题，比如多只手...
+        // todo java需要返回作图结果对应的模板id，方便定位做图异常问题
         try {
             $res = $this->sendRequest('GET', '/api/userMessage/polling', [
                 'messageId' => $msgID,
@@ -253,17 +180,6 @@ class LunaDrawService
             }
             return false;
         }
-        return $res['data'];
-    }
-
-    function batchGetTaskStatus($msgIDs, $isThumbnail = 0)
-    {
-        $res = $this->sendRequest('GET', '/api/userMessage/pollingList', [
-            'messageId' => join(',', $msgIDs),
-            'isThumbnail' => $isThumbnail,
-        ], [
-            'JWTHEADER' => $this->getAccessToken()
-        ]);
         return $res['data'];
     }
 
@@ -317,16 +233,6 @@ class LunaDrawService
             }
             return $respData;
         });
-        return $res['data'];
-    }
-
-    function uploadFileByUrl($url)
-    {
-        $res = $this->sendRequest('POST', '/api/userMessage/downloadUserFile', [
-            'url' => $url,
-        ], [
-            'JWTHEADER' => $this->getAccessToken()
-        ]);
         return $res['data'];
     }
 
