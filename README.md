@@ -2,7 +2,7 @@
 	<img alt="logo" src="./doc/image/logo-small.png">
 </p>
 <h1 align="center" style="margin: 10px 0 10px; font-weight: bold;">Luna AI换脸</h1>
-<h3 align="center" style="margin-bottom: 10px;">1张照片快速成高质量AI写真</h3>
+<h3 align="center" style="margin-bottom: 10px;">快速成型的企业级AI换脸解决方案</h3>
 <p align="center">
 <a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/微信-小程序-05ce66"></a>
 <a href="https://pay.weixin.qq.com/"><img src="https://img.shields.io/badge/微信支付-API3-05ce66"></a>
