@@ -110,6 +110,14 @@
 
 ## 部署运行 How to run
 
+目录结构
+```
+根目录
+├── admin  # 管理后台
+├── server  # 服务端
+├── uniapp  # 小程序端
+```
+
 [服务端部署教程](./doc/deploy-server.md)
 
 [小程序运行教程](./doc/deploy-uniapp.md)
@@ -156,7 +164,7 @@
     <td>
         <p>邮箱: zhoukai@iartai.com</p>
         <p>
-        企业级解决方案：<a href="https://luna.iartai.com">luna.iartai.com</a>
+        联系我，随机赠送算法token额度哦
         </p>
     </td>
 </tr>

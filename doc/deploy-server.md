@@ -79,7 +79,7 @@ composer install
 进入管理后台，配置以下系统参数：
 
 - 小程序appid和appsecert
-- LunaAI换脸算法服务secret和secretKey
+- LunaAI换脸算法服务secret和secretKey （添加下方微信随机赠送算法token额度）
 - 微信支付商户号和商户密钥等(非必须，可以先跳过)
 - 参考图片：
 <table>
@@ -88,6 +88,21 @@ composer install
         <td><img src="./image/deploy/system-config-1.png"/></td>
     </tr>
 </table>
+
+<table>
+<tr>
+    <td>
+        <img src="./image/wechat-contact-crop.jpg" alt="qrcode"/>
+    </td>
+    <td>
+        <p>邮箱: zhoukai@iartai.com</p>
+        <p>
+        联系我，随机赠送算法token额度哦
+        </p>
+    </td>
+</tr>
+</table>
+
 
 ## 9. 配置小程序
 
