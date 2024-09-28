@@ -14,7 +14,7 @@
 <p align="center">
 <a href="#"><img src="https://img.shields.io/badge/PHP-8-8892bf"></a>
 <a href="#"><img src="https://img.shields.io/badge/ThinkPHP-6.0-6fb737"></a>
-<a href="#"><img src="https://img.shields.io/badge/Vue.js-3.5-4eb883"></a>
+<a href="#"><img src="https://img.shields.io/badge/Vue.js-3-4eb883"></a>
 <a href="#"><img src="https://img.shields.io/badge/uniapp-3-d85806"></a>
 <a href="#"><img src="https://img.shields.io/badge/TypeScript-5-294e80"></a>
 <a href="#"><img src="https://img.shields.io/badge/Element Plus-2.8-409eff"></a>

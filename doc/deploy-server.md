@@ -74,7 +74,7 @@ composer install
 
 ## 8. 配置系统参数
 
-需要先安装好[管理后台项目](https://gitee.com/loxi-open-source/luna-app-admin)，文档移步👉[后台部署教程](https://gitee.com/loxi-open-source/luna-app-admin/blob/master/doc/deploy.md)
+需要先安装好管理后台，文档移步👉[后台部署教程](./deploy-admin.md)
 
 进入管理后台，配置以下系统参数：
 
@@ -91,6 +91,6 @@ composer install
 
 ## 9. 配置小程序
 
-需要先安装好[小程序项目](https://gitee.com/loxi-open-source/luna-app-miniprogram)，文档移步👉[小程序运行教程](https://gitee.com/loxi-open-source/luna-app-miniprogram/blob/master/doc/deploy.md)
+文档移步👉[小程序运行教程](./deploy-uniapp.md)
 
 修改小程序项目appid为你申请的appid，必须和后台配置的相同
