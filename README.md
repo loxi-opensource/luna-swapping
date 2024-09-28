@@ -42,7 +42,7 @@
         </td>
         <td>
             <p>
-                内置10w+高清写真模板：<a href="https://luna-admin.sodair.top/admin">管理后台入口</a>
+                内置10w+高清写真模板：<a href="https://luna-admin.sodair.top/admin">管理后台演示环境</a>
             </p>
             <p>
                 AI换脸企业级解决方案：<a href="https://luna.iartai.com">了解更多</a>
