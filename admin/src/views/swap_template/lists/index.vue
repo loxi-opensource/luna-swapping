@@ -34,15 +34,28 @@
       </el-form>
       <el-form inline>
         <el-form-item label="模板类型">
-          <el-segmented
+          <!--          <el-segmented-->
+          <!--            v-model="queryParams.is_collection"-->
+          <!--            :options="optionsIsCollection"-->
+          <!--            @change="resetPage"-->
+          <!--          >-->
+          <!--            <template #default="{ item }">-->
+          <!--              <div>{{ item.label }}</div>-->
+          <!--            </template>-->
+          <!--          </el-segmented>-->
+          <el-select
             v-model="queryParams.is_collection"
-            :options="optionsIsCollection"
+            placeholder="请选择"
             @change="resetPage"
+            class="!w-[200px]"
           >
-            <template #default="{ item }">
-              <div>{{ item.label }}</div>
-            </template>
-          </el-segmented>
+            <el-option
+              v-for="item in optionsIsCollection"
+              :key="item.value"
+              :label="item.label"
+              :value="item.value"
+            />
+          </el-select>
         </el-form-item>
         <el-form-item>
           <el-icon><InfoFilled /></el-icon>
