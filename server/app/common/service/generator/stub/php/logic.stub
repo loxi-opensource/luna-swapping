@@ -16,14 +16,14 @@
 
 
 {USE}
-use app\common\logic\BaseLogic;
-use think\facade\Db;
+use App\Common\Logic\BaseLogic;
+use Illuminate\Support\Facades\DB;
 
 
 /**
  * {CLASS_COMMENT}
  * Class {UPPER_CAMEL_NAME}Logic
- * @package app\{MODULE_NAME}\logic{PACKAGE_NAME}
+ * @package App\{MODULE_NAME}\Logic{PACKAGE_NAME}
  */
 class {UPPER_CAMEL_NAME}Logic extends BaseLogic
 {
@@ -38,16 +38,16 @@ class {UPPER_CAMEL_NAME}Logic extends BaseLogic
      */
     public static function add(array $params): bool
     {
-        Db::startTrans();
+        DB::beginTransaction();
         try {
             {UPPER_CAMEL_NAME}::create([
 {CREATE_DATA}
             ]);
 
-            Db::commit();
+            DB::commit();
             return true;
         } catch (\Exception $e) {
-            Db::rollback();
+            DB::rollBack();
             self::setError($e->getMessage());
             return false;
         }
@@ -63,16 +63,19 @@ class {UPPER_CAMEL_NAME}Logic extends BaseLogic
      */
     public static function edit(array $params): bool
     {
-        Db::startTrans();
+        DB::beginTransaction();
         try {
-            {UPPER_CAMEL_NAME}::where('{PK}', $params['{PK}'])->update([
+
+            $model = {UPPER_CAMEL_NAME}::findOrFail($params['{PK}']);
+            $model->fill([
 {UPDATE_DATA}
             ]);
+            $model->save();
 
-            Db::commit();
+            DB::commit();
             return true;
         } catch (\Exception $e) {
-            Db::rollback();
+            DB::rollBack();
             self::setError($e->getMessage());
             return false;
         }
@@ -101,6 +104,6 @@ class {UPPER_CAMEL_NAME}Logic extends BaseLogic
      */
     public static function detail($params): array
     {
-        return {UPPER_CAMEL_NAME}::findOrEmpty($params['{PK}'])->toArray();
+        return {UPPER_CAMEL_NAME}::findOrFail($params['{PK}'])->toArray();
     }
 }
