@@ -23,7 +23,7 @@
 
 ## 重要说明
 
-由于市场运营策略变动，本项目不再维护了。请移步新项目[Lite重构版](https://github.com/loxi-opensource/luna-lite-server)
+**由于市场运营策略变动，本项目不再维护了。请移步新项目** [Lite重构版](https://github.com/loxi-opensource/luna-lite-server)
 
 Lite版本更加简单、快速、轻量化！将AI换脸能力无负担接入您的业务系统！
 
